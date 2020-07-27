@@ -1,4 +1,17 @@
 {
-    "editor.suggestFontSize": 14,
-    "editor.parameterHints.enabled": false
+    "sqltools.connections": [
+        {
+            "database": "postgres",
+            "driver": "PostgreSQL",
+            "name": "postgres",
+            "password": "winona33",
+            "pgOptions": {
+                "ssl": {}
+            },
+            "port": 5432,
+            "previewLimit": 50,
+            "server": "jdbc:postgresql://localhost:5432/postgres",
+            "username": "postgres"
+        }
+    ]
 }
